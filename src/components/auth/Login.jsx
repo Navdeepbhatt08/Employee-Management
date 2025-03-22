@@ -15,6 +15,10 @@ const Login = ({handleLogin}) => {
         setPassword("")
     }
 
+    const logInUser = () => {
+        window.location.reload()
+    }
+
     return (
         <div className=' h-screen w-screen flex items-center justify-center'>
             <div className='border-2 rounded-2xl border-blue-400 p-20'>
@@ -30,7 +34,7 @@ const Login = ({handleLogin}) => {
                         }}
                         required
                         className='taxt-black outline-none border-2 border-blue-400 py-3 px-5 text-xl rounded-full mt-4' type="password" placeholder='Password' />
-                    <button className='mt-5 taxt-black outline-none bg-blue-400 border-none py-3 px-5 text-xl rounded-full w-full cursor-pointer'>Login</button>
+                    <button onClick={logInUser} className='mt-5 taxt-black outline-none bg-blue-400 border-none py-3 px-5 text-xl rounded-full w-full cursor-pointer'>Login</button>
                 </form>
             </div>
         </div>
