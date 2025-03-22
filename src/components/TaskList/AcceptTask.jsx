@@ -11,8 +11,8 @@ const AcceptTask = ({data}) => {
     <h2 className=' mt-5 text-2xl font-semibold'>{data.taskTitle}</h2>
     <p className=' text-sm mt-2'>{data.taskDescription}
     </p>
-    <div className='mt-10 flex justify-center '>
-        <button className=' w-[80%]  bg-green-600 py-1 px-2 text-sm rounded-lg text-black'>Accept task </button>
+    <div className='mt-30 flex justify-center '>
+        <button className=' w-[80%]  bg-green-600  py-1 px-2 text-sm rounded-lg text-black'>Accept task </button>
     </div>
     </div>
   )

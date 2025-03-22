@@ -10,7 +10,7 @@ const CompleteTask = ({data}) => {
     <h2 className=' mt-5 text-2xl font-semibold'>{data.taskTitle} </h2>
     <p className=' text-sm mt-2'>{data.taskDescription} 
     </p>
-    <div className='mt-10 flex justify-center '>
+    <div className='mt-30 flex justify-center '>
         <button className=' w-[80%]  bg-blue-500 py-1 px-2 text-sm rounded-lg'>Completed </button>
     </div>
 </div>

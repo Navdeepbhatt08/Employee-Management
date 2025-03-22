@@ -130,7 +130,7 @@ const employees = [
         "id": 4,
         "email": "e@e4.com",
         "password": "123",
-        "firstName": "Saanvi",  // Added Indian first name
+        "firstName": "Sanvi",  // Added Indian first name
         "taskCount": 3,  // Added task count
         "taskBreakdown": {  // Breakdown of task statuses
             "active": 1,
