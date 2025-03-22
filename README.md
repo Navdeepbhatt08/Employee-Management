@@ -1,3 +1,11 @@
+## User Name - e@e.com , e@e2.com , e@e3.com , e@e4.com 
+## Password - 123
+
+## Admin - admin@me.com
+## Password - 123
+
+# ___________________________________________
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
