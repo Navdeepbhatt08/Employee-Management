@@ -11,7 +11,9 @@ const app = () => {
   const [loggedinUserData, setLoggedinUserData] = useState()
   const [userData, setUserData] = useContext(AuthContext)
 
-  useEffect(() => {
+  useEffect(() => { 
+    
+    
     const loggedInUser = localStorage.getItem('loggedInUser')
 
     if (loggedInUser) {

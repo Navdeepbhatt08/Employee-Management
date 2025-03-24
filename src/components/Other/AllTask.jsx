@@ -13,7 +13,7 @@ const AllTask = () => {
             <div className=' bg-gray-800 mt-5 rounded-xl p-5 '>
 
                 <div className='bg-blue-700 mb-2  py-2 px-4 rounded-xl flex justify-between text-lg font-sans text-center'>
-                    <h2 className=' text-lg w-1/5 '> Employee Name </h2>
+                    <h2 className=' text-lg w-1/5 '>Employee Name </h2>
                     <h3 className=' text-lg w-1/5 ' >New Task</h3>
                     <h5 className=' text-lg w-1/5 ' >Active Task </h5>
                     <h5 className=' text-lg w-1/5 ' >Completed Task </h5>
